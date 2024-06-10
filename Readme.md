@@ -1,6 +1,6 @@
 # Chef Registration and Recipe Creation Web Application
 
-This web application allows chefs to register, login, create recipes, and view their dashboard.
+This web application allows chefs to register, login, create recipes, view their recipes, edit and delete too.
 
 ## Installation
 
@@ -60,12 +60,10 @@ This web application allows chefs to register, login, create recipes, and view t
 
 ## Usage
 
-1. Register as a new chef by clicking on the "Register" link on the home page.
-
-2. After registration, login with your credentials.
-
-3. Once logged in, you can create recipes by clicking on the "Create Recipe" link in the dashboard.
-
-4. You can view your created recipes in the dashboard.
-
-5. Logout from the application by clicking on the "Logout" link in the dashboard.
+1. Register a new account by clicking on the "Register" link and filling out the registration form.
+2. Login with your registered username and password.
+3. Once logged in, you can:
+   - Add a new recipe by clicking on the "Add Recipe" link and filling out the recipe form.
+   - View the list of all recipes by clicking on the "Recipes" link.
+   - Edit or delete your own recipes by clicking on the corresponding links next to each recipe.
+   - Logout from your account by clicking on the "Logout" link
