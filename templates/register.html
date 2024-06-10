@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <meta charset="UTF-8">
+    <title>Register</title>
 </head>
 <body>
-    <h1>Register</h1>
-    <form method="post" action="{{ url_for('register') }}">
-        <input type="text" name="username" placeholder="Username" required><br>
-        <input type="password" name="password" placeholder="Password" required><br>
-        <input type="text" name="full_name" placeholder="Full Name" required><br>
-        <input type="text" name="mobile_number" placeholder="Mobile Number" required><br>
-        <input type="submit" value="Register">
-    </form>
+    <h1>Register</h1>
+    <form method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="mobile_number">Mobile Number:</label><br>
+        <input type="text" id="mobile_number" name="mobile_number"><br><br>
+        <input type="submit" value="Register">
+    </form>
 </body>
 </html>
