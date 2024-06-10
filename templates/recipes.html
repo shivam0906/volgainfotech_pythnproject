@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Recipes</title>
+</head>
+<body>
+    <h1>Recipes</h1>
+    <ul>
+        {% for recipe in recipes %}
+        <li>{{ recipe.title }} - <a href="{{ url_for('view_recipe', recipe_id=recipe.id) }}">View</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
